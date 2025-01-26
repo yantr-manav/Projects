@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWSkills - a web page development class</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-900">
+    <!-- navbar goes here -->
+    <nav
+      class="w-full h-12 bg-blue-400 flex justify-between items-center px-4 md:px-5"
+    >
+      <div class="text-2xl font-bold text-indigo-800">PW Skills</div>
+
+      <ul class="md:flex gap-3 hidden font-semibold">
+        <li class="mx-[10px] cursor-pointer hover:text-white">Home</li>
+        <li class="mx-[10px] cursor-pointer hover:text-white">About us</li>
+        <li class="mx-[10px] cursor-pointer hover:text-white">Contact us</li>
+      </ul>
+      <div
+        class="bg-violet-700 p-[8px] rounded-2xl text-base text-md cursor-pointer hidden md:block hover:bg-violet-900 text-white font-semibold font-sans"
+      >
+        Login/Signup
+      </div>
+      <div class="md:hidden">
+        <a class="text-4xl" href="#">&#8801;</a>
+      </div>
+    </nav>
+    <!-- Navbar ends here  -->
+
+    <!-- image section  -->
+    <header class="w-full h-auto">
+      <img
+        class="w-full hidden md:block"
+        src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg"
+        alt=""
+      />
+      <img
+        class="w-full md:hidden"
+        src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/mobile.jpg"
+        alt=""
+      />
+    </header>
+    <!-- image section  ends here -->
+
+    <!-- Our Students section  -->
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <p class="text-2xl text-indigo-600 font-bold md:text-2xl">
+          "Pure hardwork, No Shortcuts!"
+        </p>
+      </div>
+      <div
+        class="w-32 h-1 border-b-4 mt-2 rounded-xl border-yellow-500 md:mt-4 md:w-36 mb-10"
+      ></div>
+    </div>
+
+    <div class="w-full flex flex-wrap justify-evenly">
+      <div class="w-46 flex flex-col items-center mb-12">
+        <img class="w-44 h-44" src="./images/book-icon.png" alt="image" />
+        <p class="text-3xl font-bold text-white">600+</p>
+        <p class="text-3xl font-bold text-gray-500">Different Courses</p>
+      </div>
+
+      <div class="w-46 flex flex-col items-center mb-12">
+        <img class="w-44 h-44" src="./images/career.png" alt="image" />
+        <p class="text-3xl font-bold text-white">12000+</p>
+        <p class="text-3xl font-bold text-gray-500">Career Transitions</p>
+      </div>
+
+      <div class="w-46 flex flex-col items-center mb-12">
+        <img class="w-44 h-44" src="./images/hiring-icon.png" alt="image" />
+        <p class="text-3xl font-bold text-white">400+</p>
+        <p class="text-3xl font-bold text-gray-500">Hiring Partners</p>
+      </div>
+    </div>
+    <!-- Our Students section ends here  -->
+
+    <!-- Our Products Section  -->
+    <div
+      class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10"
+    >
+      <div class="w-full h-auto flex flex-wrap flex-col items-center">
+        <p class="text-2xl text-indigo-600 font-bold md:text-2xl">
+          Our Products
+        </p>
+      </div>
+      <div
+        class="w-32 h-1 border-b-4 mt-2 rounded-xl border-yellow-500 md:mt-4 md:w-36 mb-10"
+      ></div>
+    </div>
+
+    <div class="w-[100%] h-auto flex flex-wrap justify-evenly gap-4">
+      <div
+        class="w-56 flex flex-col flex-wrap items-center mb-12 border-white border-2 rounded-xl p-4"
+      >
+        <img class="w-32 h-32" src="./images/affiliate.png" alt="image" />
+        <p class="font-bold text-gray-400 text-xl my-5">Become an affiliate</p>
+        <p class="text-white text-md font-semibold pl-[20%]">
+          Explore affiliate marketing opportunities and attain financial
+          freedom.
+        </p>
+
+        <div
+          class="bg-indigo-500 p-2 rounded-xl text-base cursor-pointer md:block hover:bg-violet-700 text-white font-semibold font-sans mt-4"
+        >
+          <a class="font-bold text-lg" href="#">
+            Explore more <span class="text-lg">&#x2192;</span></a
+          >
+        </div>
+      </div>
+      <div
+        class="w-56 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-4"
+      >
+        <img class="w-32 h-32" src="./images/courses.svg" alt="image" />
+        <p class="font-bold text-gray-400 text-lg my-5">Programming courses</p>
+        <p class="text-white text-md font-semibold pl-[20%]">
+          Build strong coding foundations for a high-paying technology career.
+          Lorem, ipsum dolor.
+        </p>
+
+        <div
+          class="bg-indigo-500 p-2 rounded-xl text-base cursor-pointer md:block hover:bg-violet-700 text-white font-semibold font-sans mt-4"
+        >
+          <a class="font-bold text-lg" href="#">
+            Explore more <span class="text-lg">&#x2192;</span></a
+          >
+        </div>
+      </div>
+      <div
+        class="w-56 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-4"
+      >
+        <img class="w-32 h-32" src="./images/fame.png" alt="image" />
+        <p class="font-bold text-gray-400 text-xl my-5">Hall of Fame</p>
+        <p class="text-white text-md font-semibold pl-[20%]">
+          Our student placements and 100K+ career transitions speak volumes.
+        </p>
+
+        <div
+          class="bg-indigo-500 p-2 rounded-xl text-base cursor-pointer md:block hover:bg-violet-700 text-white font-semibold font-sans mt-4"
+        >
+          <a class="font-bold text-lg" href="#">
+            Explore more <span class="text-lg">&#x2192;</span></a
+          >
+        </div>
+      </div>
+
+      <div
+        class="w-56 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-4"
+      >
+        <img class="w-32 h-32" src="./images/job.png" alt="image" />
+        <p class="font-bold text-gray-400 text-xl my-5">Job Portal</p>
+        <p class="text-white text-md font-semibold pl-[20%]">
+          Use exceptional templates for a stand-out resume minus the sign up
+          process..
+        </p>
+
+        <div
+          class="bg-indigo-500 p-2 rounded-xl text-base cursor-pointer md:block hover:bg-violet-700 text-white font-semibold font-sans mt-4"
+        >
+          <a class="font-bold text-lg" href="#">
+            Explore more <span class="text-lg">&#x2192;</span></a
+          >
+        </div>
+      </div>
+
+      <div
+        class="w-56 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-4"
+      >
+        <img class="w-32 h-32" src="./images/portal.png" alt="image" />
+        <p class="font-bold text-gray-400 text-xl my-5">Experience Portal</p>
+        <p class="text-white text-md font-semibold pl-[20%]">
+          Self-paced portal prioritizes hands-on training with 570+ internship
+          projects.
+        </p>
+
+        <div
+          class="bg-indigo-500 p-2 rounded-xl text-base cursor-pointer md:block hover:bg-violet-700 text-white font-semibold font-sans mt-4"
+        >
+          <a class="font-bold text-lg" href="#">
+            Explore more <span class="text-lg">&#x2192;</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Our Products Section ends here  -->
+
+    <!-- Footer section starts header -->
+
+    <footer
+      class="w-full bg-gray-500 px-4 text-white pt-12 flex flex-col md:flex-row flex-wrap justify-between mb-12 md:px-12"
+    >
+      <div>
+        <img class="w-16 h-16 rounded-2xl" src="./images/pw-logo.jpeg" alt="image" />
+        <p class="my-4">Email us: itwasntme@gmail.com</p>
+        <img class="w-16 h-16 rounded-2xl" src="./images/iso-log.png" alt="" />
+      </div>
+
+      <div>
+        <h2 class="font-bold text-xl mt-4">PW Skills</h2>
+        <div class="w-24 h-1 border-b-4 border-red-600 rounded-xl my-2"></div>
+        <div>
+          <p>About us</p>
+          <p>FAQs</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-bold text-xl mt-4">Products</h2>
+        <div
+          class="w-24 h-1 border-b-4 border-yellow-400 rounded-xl my-2"
+        ></div>
+        <div>
+          <p>Skills Lab</p>
+          <p>Jobs Portal</p>
+          <p>Experience Portal</p>
+          <p>Become an affiliate</p>
+          <p>Hall of Fame</p>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-bold text-xl mt-4">Links</h2>
+        <div
+          class="w-24 h-1 border-b-4 border-yellow-600 rounded-xl my-2"
+        ></div>
+        <div>
+          <p>Discord</p>
+          <p>Yourtube channel</p>
+          <p>Career</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer section ends here  -->
+  </body>
+</html>

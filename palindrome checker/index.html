@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>palindrome checker</title>
+  </head>
+  <style>
+    body {
+      background-color: snow;
+    }
+    h3 {
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+    }
+
+    input {
+      width: 40%;
+      height: 40px;
+      border: 2px solid black;
+      border-radius: 15px;
+      font-size: 20px;
+      background-color: rgb(241, 242, 210);
+      display: flex;
+      justify-content: center;
+    }
+    button {
+      margin-top: 50px;
+      width: 150px;
+      font-size: 20px;
+      padding: 5px;
+      border: 1.5px solid rgb(245, 108, 108);
+      border-radius: 15px;
+      cursor: pointer;
+      background-color: rgb(64, 64, 252);
+      box-shadow: 0px 2px 2px;
+    }
+
+    #output {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      font-size: 30px;
+    }
+    #btn {
+      display: flex;
+      justify-content: center;
+    }
+    #text {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <h3>Palindrome Checker</h3>
+    <div id="text">
+      <input type="text" id="value" placeholder=" Enter the word" />
+    </div>
+    <div id="btn"><button onclick="check()">check here</button></div>
+    <div id="output"></div>
+  </body>
+  <script src="script.js"></script>
+</html>

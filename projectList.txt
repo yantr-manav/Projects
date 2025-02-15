@@ -1,0 +1,2 @@
+1. Color flipper
+2.Palindrome checker
